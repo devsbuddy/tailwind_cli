@@ -14,7 +14,7 @@ export default {
       {
         rel: "icon",
         type: "image/x-icon",
-        href: "/tailwind-cli/images/favicon.png",
+        href: "/images/favicon.png",
       },
     ],
     [
