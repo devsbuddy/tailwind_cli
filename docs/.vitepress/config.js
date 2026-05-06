@@ -1,7 +1,6 @@
 export default {
   title: "TailwindCLI",
   description: "Just playing around.",
-  base: "/tailwind-cli/",
   cleanUrls: true,
   srcDir: "./src",
   outDir: "./.vitepress/tailwind-cli",
