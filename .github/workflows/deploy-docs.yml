@@ -1,4 +1,4 @@
-name: Deploy TailwindCLI Docs
+name: 🚀 Deploy TailwindCLI Docs
 
 on:
     # Runs on pushes targeting the `main` branch. Change this to `master` if you're
@@ -48,7 +48,7 @@ jobs:
             - name: Upload artifact
               uses: actions/upload-pages-artifact@v3
               with:
-                  path: docs/.vitepress/dist
+                  path: docs/.vitepress/tailwind-cli
 
     # Deployment job
     deploy:
