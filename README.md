@@ -4,8 +4,8 @@ A simple yet awesome flutter package to generate and use TailwindCSS-like stylin
 projects.
 
 **Note:**
-> Please note that this project is in early stage and constantly updating,It may include breaking changes in future updates until it becomes stable. So for now you can use it for learning purpose and also in production but if you use it in production, in future you may introduce some issues after updating it to new version. So please keep this in mind when using this package for your apps
 
+> Please note that this project is in early stage and constantly updating,It may include breaking changes in future updates until it becomes stable. So for now you can use it for learning purpose and also in production but if you use it in production, in future you may introduce some issues after updating it to new version. So please keep this in mind when using this package for your apps
 
 ![TailwindCLI](./screenshots/TailwindCLI.png)
 
@@ -23,7 +23,7 @@ you `Colors`, `Gradient Colors`, Sizing `(Padding, Margins)`,
 ## Want to dive in?
 
 Know more about the package by visiting this
-[Official Documentation](https://docs.devsbuddy.com/tailwind-cli/)
+[Official Documentation](https://tailwind-cli.devsbuddy.com/)
 
 ## Future Plans
 
@@ -48,7 +48,7 @@ If you found this package helpful, you can just simply click on the following bu
 
 Please check our Official Documentation for instructions on how to use this package in your Flutter apps.
 
-Go to: **[Official Documentation](https://docs.devsbuddy.com/tailwind-cli/)**
+Go to: **[Official Documentation](https://tailwind-cli.devsbuddy.com)**
 
 ## Features
 
@@ -99,11 +99,11 @@ There are several methods that can be used to build tailwind-like styles for any
 - **Background Colors**: Same color palette can be used for a background color for any widget with few code characters.
   - For example `Container(height: 500, width: 500).isContainer.red500.render()`.
   - See that we only need to call the color name to set the background color for the container widget.
-- [See more](https://docs.devsbuddy.com/tailwind-cli/)
+- [See more](https://tailwind-cli.devsbuddy.com)
 
 ## Detailed documentation
 
-You can check the official documentation by visiting this URL: [Visit Official Documentation](https://docs.devsbuddy.com/tailwind-cli/)
+You can check the official documentation by visiting this URL: [Visit Official Documentation](https://tailwind-cli.devsbuddy.com)
 
 **_Note: This documentation is in the initial stage which will be fully available soon._**
 
