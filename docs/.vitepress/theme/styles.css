@@ -1,0 +1,18 @@
+:root {
+  --vp-c-brand: #646cff;
+  --vp-c-brand-light: #868cff;
+  --vp-button-brand-border: var(--vp-c-brand);
+  --vp-button-brand-hover-border: var(--vp-c-brand-light);
+  --vp-button-brand-active-border: var(--vp-c-brand-light);
+  --vp-button-brand-hover-bg: var(--vp-c-brand-light);
+  --vp-button-brand-active-bg: var(--vp-c-brand-light);
+}
+
+.vp-doc table {
+  width: 100%;
+  display: table;
+}
+
+thead, tbody {
+  width: 100%;
+}
