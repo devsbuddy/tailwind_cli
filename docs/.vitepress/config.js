@@ -21,13 +21,18 @@ export default {
       "script",
       {
         async: true,
-        src: "https://www.googletagmanager.com/gtag/js?id=G-GKNMVN5QK0",
+        src: "https://www.googletagmanager.com/gtag/js?id=G-C8ZWJ3ZZEY",
       },
     ],
     [
       "script",
       {},
-      "window.dataLayer = window.dataLayer || [];\nfunction gtag(){dataLayer.push(arguments);}\ngtag('js', new Date());\ngtag('config', 'G-GKNMVN5QK0');",
+      [
+        "window.dataLayer = window.dataLayer || [];",
+        "function gtag(){dataLayer.push(arguments);}",
+        "gtag('js', new Date());",
+        "gtag('config', 'G-C8ZWJ3ZZEY');"
+      ].join('\n'),
     ],
   ],
   themeConfig: {
