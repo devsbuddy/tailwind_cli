@@ -1,6 +1,6 @@
 export default {
   title: "TailwindCLI",
-  description: "Just playing around.",
+  description: "Build awesome flutter apps with tailwind styles",
   cleanUrls: true,
   srcDir: "./src",
   outDir: "./.vitepress/tailwind-cli",
