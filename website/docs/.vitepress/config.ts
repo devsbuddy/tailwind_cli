@@ -1,9 +1,11 @@
+const version = "v0.7.x";
+
 export default {
   title: "TailwindCLI",
   description: "Build awesome flutter apps with tailwind styles",
   cleanUrls: true,
   srcDir: "./src",
-  outDir: "./.vitepress/tailwind-cli",
+  base: "/docs/",
   markdown: {
     lineNumbers: true,
     defaultHighlightLang: "dart",
@@ -31,8 +33,8 @@ export default {
         "window.dataLayer = window.dataLayer || [];",
         "function gtag(){dataLayer.push(arguments);}",
         "gtag('js', new Date());",
-        "gtag('config', 'G-C8ZWJ3ZZEY');"
-      ].join('\n'),
+        "gtag('config', 'G-C8ZWJ3ZZEY');",
+      ].join("\n"),
     ],
   ],
   themeConfig: {
@@ -52,22 +54,18 @@ export default {
     nav: [
       {
         text: "Home",
-        link: "/",
+        link: "https://tailwind-cli.devsbuddy.com",
       },
       {
         text: "Docs",
-        link: "/introduction",
+        link: "/",
       },
       {
-        text: "Blog",
-        link: "https://devsbuddy.com/blog",
-      },
-      {
-        text: "0.7.5",
+        text: version,
         items: [
           {
             text: "Changelog",
-            link: "https://github.com/thedevsbuddy/tailwind_cli/blob/main/CHANGELOG.md",
+            link: `https://github.com/devsbuddy/tailwind_cli/blob/${version}/CHANGELOG.md`,
           },
         ],
       },
@@ -75,7 +73,7 @@ export default {
     sidebar: [
       {
         text: "Introduction",
-        link: "/introduction",
+        link: "/",
       },
       {
         text: "Installation",

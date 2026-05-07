@@ -19,11 +19,11 @@ class TwInkWell extends TwWidgetBuilder<Widget> with TwGestureMixin<TwInkWell> {
   Color? _focusColor;
   Color? _hoverColor;
   Color? _highlightColor;
-  MaterialStateProperty<Color?>? _overlayColor;
+  WidgetStateProperty<Color?>? _overlayColor;
   Color? _splashColor;
   double? _radius;
   ShapeBorder? _customBorder;
-  bool? _enableFeedback = true;
+  bool _enableFeedback = true;
   bool _excludeFromSemantics = false;
   FocusNode? _focusNode;
   bool _canRequestFocus = true;
@@ -33,29 +33,21 @@ class TwInkWell extends TwWidgetBuilder<Widget> with TwGestureMixin<TwInkWell> {
 
   /// Handle Booleans
   TwInkWell autoFocus(bool autoFocus) => this.._autofocus = autoFocus;
-  TwInkWell enableFeedback(bool enableFeedback) =>
-      this.._enableFeedback = enableFeedback;
-  TwInkWell excludeFromSemantics(bool excludeFromSemantics) =>
-      this.._excludeFromSemantics = excludeFromSemantics;
-  TwInkWell canRequestFocus(bool canRequestFocus) =>
-      this.._canRequestFocus = canRequestFocus;
+  TwInkWell enableFeedback(bool enableFeedback) => this.._enableFeedback = enableFeedback;
+  TwInkWell excludeFromSemantics(bool excludeFromSemantics) => this.._excludeFromSemantics = excludeFromSemantics;
+  TwInkWell canRequestFocus(bool canRequestFocus) => this.._canRequestFocus = canRequestFocus;
 
   /// Handle Colors
   TwInkWell focusColor(Color focusColor) => this.._focusColor = focusColor;
   TwInkWell hoverColor(Color hoverColor) => this.._hoverColor = hoverColor;
-  TwInkWell highlightColor(Color highlightColor) =>
-      this.._highlightColor = highlightColor;
-  TwInkWell overlayColor(MaterialStateProperty<Color?> overlayColor) =>
-      this.._overlayColor = overlayColor;
+  TwInkWell highlightColor(Color highlightColor) => this.._highlightColor = highlightColor;
+  TwInkWell overlayColor(WidgetStateProperty<Color?> overlayColor) => this.._overlayColor = overlayColor;
   TwInkWell splashColor(Color splashColor) => this.._splashColor = splashColor;
 
   /// Handle Misc Options
-  TwInkWell borderRadius(BorderRadius borderRadius) =>
-      this.._borderRadius = borderRadius;
-  TwInkWell mouseCursor(MouseCursor mouseCursor) =>
-      this.._mouseCursor = mouseCursor;
-  TwInkWell customBorder(ShapeBorder customBorder) =>
-      this.._customBorder = customBorder;
+  TwInkWell borderRadius(BorderRadius borderRadius) => this.._borderRadius = borderRadius;
+  TwInkWell mouseCursor(MouseCursor mouseCursor) => this.._mouseCursor = mouseCursor;
+  TwInkWell customBorder(ShapeBorder customBorder) => this.._customBorder = customBorder;
   TwInkWell focusNode(FocusNode focusNode) => this.._focusNode = focusNode;
 
   /// It Renders [InkWell] Widget

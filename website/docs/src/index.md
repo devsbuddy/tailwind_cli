@@ -2,10 +2,16 @@
 title: The ultimate solution to build flutter apps with tailwind styles
 ---
 
+<script setup>
+import { useData } from 'vitepress'
+
+const { isDark } = useData()
+</script>
+
 # Introduction
 
-<!-- <figure><img src=".gitbook/assets/TailwindCLI-Banner.svg" alt=""><figcaption></figcaption></figure> -->
-<figure><img class="banner" src="/assets/tailwind-cli-banner.png" alt="Tailwind CLI"><figcaption></figcaption></figure>
+<img v-if="isDark" class="banner" src="/assets/banner.png" alt="Tailwind CLI">
+<img v-else class="banner" src="/assets/banner-light.png" alt="Tailwind CLI">
 
 A simple yet awesome flutter package to generate and use TailwindCSS-like styling in your flutter projects.
 
@@ -20,17 +26,23 @@ This package is mainly focused on the UI part of any app, As it provides easy-to
 
 This package is for those developers who wants to build their flutter apps faster but with less code. Because flutter developers know that creating even a simple section in their app requires a substantial amount of code. To mitigate this, I present the benefits of incorporating Tailwind CSS styles in your Flutter projects. With Tailwind, you can create stunning and functional UI in a fraction of the time it typically takes.
 
-## Why use Tailwind CLI?
+<!-- ## Why use Tailwind CLI?
 
 Streamline your app building process with ease! This Library, as previously mentioned, is the key to faster development and reduced code. Say goodbye to the tedious coding process and hello to a speedy 80% reduction, all while achieving the desired outcome.
 
-Here is an example and comparison between the native way to build a container to look like a button and the tailwind CLI way of writing code for the same.
+Here is an example and comparison between the native way to build a container to look like a button and the tailwind CLI way of writing code for the same. -->
+
+## Why use Tailwind CLI?
+
+Build apps faster and with less code. This library helps you write UI code quickly and easily. You can avoid long and repetitive code and reduce the amount of code you write by up to 80%, while still getting the same result.
+
+Here is a comparison between the normal way of building a container that looks like a button and the Tailwind CLI way of doing the same thing.
 
 ### Making a custom button
 
-:::code-group
+::: code-group
 
-```dart[Normal Way]
+```dart [Normal Way]
 InkWell(
   onTap: () {
     // Do nothing for now!
@@ -66,7 +78,7 @@ InkWell(
 
 :::code-group
 
-```dart[Easiest Method]
+```dart [Easiest Method]
 TwRow([
   "Tailwind custom button".isText
   .textSm
@@ -88,7 +100,6 @@ TwRow([
 ```
 
 :::
-
 
 There are multiple ways to do the same thing with tailwind styles which can be helpful for any developer.
 
