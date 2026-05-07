@@ -2,7 +2,7 @@ name: Deploy Site (Nuxt + VitePress)
 
 on:
     push:
-        branches: [website, docs]
+        branches: [website]
     workflow_dispatch:
 
 permissions:
