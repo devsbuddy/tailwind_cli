@@ -26,13 +26,6 @@ you `Colors`, `Gradient Colors`, Sizing `(Padding, Margins)`,
 Know more about the package by visiting this
 [Official Documentation](https://tailwind-cli.devsbuddy.com/)
 
-## Future Plans
-
-| Feature               | Status | Addition/Changes | From Version |
-| --------------------- | :----: | :--------------: | :----------: |
-| `TwGrid` Widget       |   ⏳   |        ➕        | In Progress  |
-| `TwPositioned` Widget |   ⏳   |        ➕        | In Progress  |
-
 ---
 
 ## Support me
@@ -107,6 +100,13 @@ There are several methods that can be used to build tailwind-like styles for any
 You can check the official documentation by visiting this URL: [Visit Official Documentation](https://tailwind-cli.devsbuddy.com)
 
 **_Note: This documentation is in the initial stage which will be fully available soon._**
+
+## Future Plans
+
+| Feature               | Status | Addition/Changes | From Version |
+| --------------------- | :----: | :--------------: | :----------: |
+| `TwGrid` Widget       |   ⏳   |        ➕        | In Progress  |
+| `TwPositioned` Widget |   ⏳   |        ➕        | In Progress  |
 
 ## Repo Activity
 
