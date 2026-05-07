@@ -6,9 +6,7 @@ It generates a tailwind like stylings for flutter application
 
 **Attention:**
 
-```txt
-Note that this project is in early stage and constantly updating,It may include breaking changes in future updates until it becomes stable. So for now you can use it for learning purpose and some hobby projects, avoid using it in production apps for now.
-```
+> Note that this project is in early stage and constantly updating,It may include breaking changes in future updates until it becomes stable. So for now you can use it for learning purpose and some hobby projects, avoid using it in production apps for now.
 
 ## Inspiration
 
