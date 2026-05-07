@@ -1,0 +1,12 @@
+docs/
+website/
+node_modules/
+.nuxt/
+.vitepress/cache/
+.vitepress/dist/
+package.json
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+vite.config.ts
+nuxt.config.ts
