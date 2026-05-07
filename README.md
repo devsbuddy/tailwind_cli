@@ -1,13 +1,14 @@
+![TailwindCLI](./screenshots/banner.png)
+
 # Tailwind CLI v0.7.7
 
-A simple yet awesome flutter package to generate and use TailwindCSS-like styling in your flutter
-projects.
+It generates a tailwind like stylings for flutter application
 
-**Note:**
+**Attention:**
 
-> Please note that this project is in early stage and constantly updating,It may include breaking changes in future updates until it becomes stable. So for now you can use it for learning purpose and also in production but if you use it in production, in future you may introduce some issues after updating it to new version. So please keep this in mind when using this package for your apps
-
-![TailwindCLI](./screenshots/TailwindCLI.png)
+```txt
+Note that this project is in early stage and constantly updating,It may include breaking changes in future updates until it becomes stable. So for now you can use it for learning purpose and some hobby projects, avoid using it in production apps for now.
+```
 
 ## Inspiration
 
@@ -46,7 +47,7 @@ If you found this package helpful, you can just simply click on the following bu
 
 ## Getting Started
 
-Please check our Official Documentation for instructions on how to use this package in your Flutter apps.
+Check our Official Documentation for instructions on how to use this package in your Flutter apps.
 
 Go to: **[Official Documentation](https://tailwind-cli.devsbuddy.com)**
 

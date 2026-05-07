@@ -7,7 +7,9 @@ Installation and setup of this the package is as easy as you setup other package
 ```shell
 flutter pub add -d tailwind_cli
 ```
+
 OR
+
 ```shell
 dart pub add -d tailwind_cli
 ```
@@ -33,7 +35,8 @@ Now publish the `tailwind.config.json` file
 ```shell
 flutter pub run tailwind_cli:init
 ```
-or 
+
+or
 
 ```shell
 dart run tailwind_cli:init
@@ -61,7 +64,7 @@ Publishing the `tailwind.config.json` file will create a config file for Tailwin
 flutter pub run tailwind_cli:build
 ```
 
-or 
+or
 
 ```shell
 dart run tailwind_cli:build
@@ -120,13 +123,14 @@ Gererated directory structure.
 ## Add tailwind to your project
 
 Include tailwind in your project's `pubspec.yaml` file under `dependencies` section
+
 ::: code-group
 
-```yaml [pubspec.yaml]
+```yaml {2,3,4} [pubspec.yaml]
 dependencies:
-  # Tailwind // [!code ++]
-  tailwind: // [!code ++]
-    path: tailwind // [!code ++]
+  # Tailwind
+  tailwind:
+    path: tailwind
 ```
 
 :::
@@ -163,7 +167,7 @@ return MaterialApp(
 );
 ```
 
-Or if you are using `GetX` package and `GetMaterialApp` 
+Or if you are using `GetX` package and `GetMaterialApp`
 
 ```dart
 return GetMaterialApp(
@@ -183,7 +187,7 @@ TwAppBuilder(
   builder: (BuildContext context, ThemeMode themeMode) {
     return MaterialApp(
     key: TwService.appKey,
-    themeMode: themeMode, // [!code ++] // To add dynamic theme
+    themeMode: themeMode, //[!code ++]
     //... Other properties
     );
   }
@@ -199,6 +203,7 @@ To do so run this command:
 ```shell
 flutter pub run tailwind_cli:build
 ```
+
 or
 
 ```shell
