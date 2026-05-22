@@ -1,3 +1,0 @@
-# Gradients Methods
-
-Coming soon

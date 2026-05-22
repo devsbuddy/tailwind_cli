@@ -1,3 +1,0 @@
-# Gesture Methods
-
-Coming soon

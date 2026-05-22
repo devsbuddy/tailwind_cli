@@ -1,2 +1,0 @@
-# Border Color
-

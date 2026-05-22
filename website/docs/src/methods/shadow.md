@@ -1,3 +1,0 @@
-# Shadow Methods
-
-Coming soon
